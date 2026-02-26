@@ -1,0 +1,60 @@
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- C:\Users\DELL\Downloads\stitch\.next\server\webpack-runtime.js
+- C:\Users\DELL\Downloads\stitch\.next\server\pages\_document.js
+- C:\Users\DELL\Downloads\stitch\node_modules\next\dist\server\require.js
+- C:\Users\DELL\Downloads\stitch\node_modules\next\dist\server\next-server.js
+- C:\Users\DELL\Downloads\stitch\node_modules\next\dist\server\next.js
+- C:\Users\DELL\Downloads\stitch\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\DELL\Downloads\stitch\node_modules\next\dist\cli\next-start.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1225:15)
+    at C:\Users\DELL\Downloads\stitch\node_modules\next\dist\server\require-hook.js:55:36
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1311:12)
+    at mod.require (C:\Users\DELL\Downloads\stitch\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:136:16)
+    at __webpack_require__.f.require (C:\Users\DELL\Downloads\stitch\.next\server\webpack-runtime.js:203:28)
+    at C:\Users\DELL\Downloads\stitch\.next\server\webpack-runtime.js:116:40 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\DELL\\Downloads\\stitch\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\DELL\\Downloads\\stitch\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\DELL\\Downloads\\stitch\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\DELL\\Downloads\\stitch\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\DELL\\Downloads\\stitch\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\DELL\\Downloads\\stitch\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\DELL\\Downloads\\stitch\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\DELL\Downloads\stitch\.next\server\webpack-runtime.js
+- C:\Users\DELL\Downloads\stitch\.next\server\pages\_document.js
+- C:\Users\DELL\Downloads\stitch\node_modules\next\dist\server\require.js
+- C:\Users\DELL\Downloads\stitch\node_modules\next\dist\server\next-server.js
+- C:\Users\DELL\Downloads\stitch\node_modules\next\dist\server\next.js
+- C:\Users\DELL\Downloads\stitch\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\DELL\Downloads\stitch\node_modules\next\dist\cli\next-start.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1225:15)
+    at C:\Users\DELL\Downloads\stitch\node_modules\next\dist\server\require-hook.js:55:36
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1311:12)
+    at mod.require (C:\Users\DELL\Downloads\stitch\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:136:16)
+    at __webpack_require__.f.require (C:\Users\DELL\Downloads\stitch\.next\server\webpack-runtime.js:203:28)
+    at C:\Users\DELL\Downloads\stitch\.next\server\webpack-runtime.js:116:40 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\DELL\\Downloads\\stitch\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\DELL\\Downloads\\stitch\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\DELL\\Downloads\\stitch\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\DELL\\Downloads\\stitch\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\DELL\\Downloads\\stitch\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\DELL\\Downloads\\stitch\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\DELL\\Downloads\\stitch\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}

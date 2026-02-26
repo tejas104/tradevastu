@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>TradeVastu | Modern Real Estate Sales Systems</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#0b203c",
+              "charcoal": "#2d2d2d",
+              "royal-gold": "#D4AF37",
+              "background-light": "#ffffff",
+              "background-dark": "#121820",
+              "silver": "#e5e7eb",
+            },
+            fontFamily: {
+              "display": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style type="text/tailwindcss">
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .service-card-glow:hover {
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.1);
+            border-color: #D4AF37;
+        }
+        .mandala-pattern {
+            background-image: radial-gradient(#D4AF37 0.5px, transparent 0.5px);
+            background-size: 24px 24px;
+            opacity: 0.1;
+        }
+        .mandala-overlay {
+            background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 0 L60 40 L100 50 L60 60 L50 100 L40 60 L0 50 L40 40 Z' fill='%23D4AF37' fill-opacity='0.05'/%3E%3C/svg%3E");
+            background-size: 150px 150px;
+        }
+        .marquee-container {
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        .marquee-content {
+            display: inline-block;
+            animation: scroll 30s linear infinite;
+        }
+        @keyframes scroll {
+            from { transform: translateX(0); }
+            to { transform: translateX(-50%); }
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased">
+<header class="sticky top-0 z-50 w-full bg-white/90 dark:bg-background-dark/90 backdrop-blur-md border-b border-silver dark:border-slate-800">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="flex items-center gap-10">
+<a class="flex items-center gap-2" href="#">
+<span class="text-primary dark:text-white font-black text-2xl tracking-tighter uppercase">Trade<span class="text-royal-gold">Vastu</span></span>
+</a>
+<nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-600 dark:text-slate-400">
+<a class="hover:text-royal-gold transition-colors" href="#expertise">Expertise</a>
+<a class="hover:text-royal-gold transition-colors" href="#services">Solutions</a>
+<a class="hover:text-royal-gold transition-colors" href="#approach">Our Process</a>
+</nav>
+</div>
+<div class="flex items-center gap-6">
+<a class="text-sm font-bold text-primary dark:text-white hover:text-royal-gold transition-colors" href="#">Client Portal</a>
+<button class="bg-primary text-white text-[11px] font-bold uppercase tracking-[0.2em] px-6 py-3 rounded hover:bg-slate-800 transition-all border-b-2 border-royal-gold">
+                Book Strategy Call
+            </button>
+</div>
+</div>
+</header>
+<section class="relative pt-16 pb-24 px-6 overflow-hidden">
+<div class="absolute inset-0 mandala-overlay -z-10"></div>
+<div class="max-w-7xl mx-auto">
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+<div class="text-left">
+<div class="flex items-center gap-2 mb-6">
+<span class="h-[1px] w-8 bg-royal-gold"></span>
+<span class="text-[11px] font-bold uppercase tracking-[0.3em] text-royal-gold">Bharat's Enterprise SaaS Partner</span>
+</div>
+<h1 class="text-primary dark:text-white text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.05] mb-8">
+                    Modernizing <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-royal-gold">Sales Systems</span> for Indian Developers.
+                </h1>
+<p class="text-slate-600 dark:text-slate-400 text-lg md:text-xl max-w-xl mb-10 font-normal leading-relaxed">
+                    Scalable sales infrastructure tailored for the Indian real estate landscape—integrating RERA compliance and localized lead intelligence.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="bg-primary text-white text-sm font-bold px-10 py-5 rounded hover:bg-slate-800 transition-all shadow-xl shadow-primary/10">
+                        Request System Audit
+                    </button>
+<button class="bg-white border border-silver text-primary text-sm font-bold px-10 py-5 rounded hover:bg-slate-50 transition-all">
+                        Our Methodology
+                    </button>
+</div>
+</div>
+<div class="relative">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden shadow-2xl relative border-8 border-white dark:border-slate-800">
+<img alt="Modern Indian real estate landmark" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0SjJ_HvpQR8VcJ_ztP2_028_dxLPgbafZQqm24Ci2GAVLBK1JP4WzHQ4v75mabT-mwNSu-w09ewaEkJXjBcc1y2uBdXoyA9EESUg-X55MFvgMtFbKmiGGqBsg9cJr5ZOFYX6GhyWEsGBh_RNKJK9CIdpzwu3kcK_udFovMkVAOVtUA210UkkdIEEfc8OD8g4P46rnI8aly3AeAWyRpp535TTqrRL8LDhiIQKDvzTjzKpG8Hv2Y4G7zj5ZsZ7d-d_C0sE4RoFcMuYc"/>
+<div class="absolute bottom-6 left-6 right-6 p-6 bg-white/95 backdrop-blur shadow-lg rounded">
+<div class="flex items-center gap-4">
+<div class="p-2 bg-royal-gold/10 rounded">
+<span class="material-symbols-outlined text-royal-gold">verified</span>
+</div>
+<div>
+<p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Industry Standard</p>
+<p class="text-sm font-bold text-primary uppercase">100% RERA Compliant Logic</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 border-y border-silver bg-slate-50/50">
+<div class="max-w-7xl mx-auto px-6 mb-6">
+<p class="text-center text-[10px] font-bold uppercase tracking-[0.4em] text-slate-400">Trusted by Leading Indian Developers &amp; Real Estate Groups</p>
+</div>
+<div class="marquee-container">
+<div class="marquee-content flex gap-12 items-center">
+<div class="flex gap-20 items-center opacity-60 grayscale hover:grayscale-0 transition-all px-10">
+<span class="text-2xl font-black text-slate-400">GODREJ PROP</span>
+<span class="text-2xl font-black text-slate-400">LODHA GROUP</span>
+<span class="text-2xl font-black text-slate-400">DLF LIMITED</span>
+<span class="text-2xl font-black text-slate-400">PRESTIGE</span>
+<span class="text-2xl font-black text-slate-400">TATA REALTY</span>
+<span class="text-2xl font-black text-slate-400">OBEROI REALTY</span>
+<span class="text-2xl font-black text-slate-400">GODREJ PROP</span>
+<span class="text-2xl font-black text-slate-400">LODHA GROUP</span>
+<span class="text-2xl font-black text-slate-400">DLF LIMITED</span>
+<span class="text-2xl font-black text-slate-400">PRESTIGE</span>
+<span class="text-2xl font-black text-slate-400">TATA REALTY</span>
+<span class="text-2xl font-black text-slate-400">OBEROI REALTY</span>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 px-6 relative overflow-hidden" id="expertise">
+<div class="absolute top-0 right-0 w-1/3 h-full mandala-pattern -z-10"></div>
+<div class="max-w-7xl mx-auto">
+<div class="grid lg:grid-cols-2 gap-20 items-center">
+<div>
+<h2 class="text-primary dark:text-white text-4xl font-bold tracking-tight mb-8">Localized Expertise for the <span class="text-royal-gold">Indian Market</span></h2>
+<p class="text-slate-600 dark:text-slate-400 text-lg mb-10">Global software often fails to account for the unique dynamics of the Indian real estate ecosystem. We bridge that gap with systems built for the subcontinent.</p>
+<div class="space-y-6">
+<div class="flex gap-6 p-6 bg-white border-l-4 border-royal-gold shadow-sm">
+<span class="material-symbols-outlined text-royal-gold text-3xl">gavel</span>
+<div>
+<h4 class="font-bold text-slate-900 mb-1">RERA Compliance Framework</h4>
+<p class="text-sm text-slate-500">Automated documentation and transparency workflows that align with regional RERA mandates across states.</p>
+</div>
+</div>
+<div class="flex gap-6 p-6 bg-white border-l-4 border-royal-gold shadow-sm">
+<span class="material-symbols-outlined text-royal-gold text-3xl">dynamic_feed</span>
+<div>
+<h4 class="font-bold text-slate-900 mb-1">Lead Source Integration</h4>
+<p class="text-sm text-slate-500">Deep API connectors for 99acres, MagicBricks, and Housing.com to centralize your entire marketing funnel.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="p-8 bg-slate-50 border border-silver rounded aspect-square flex flex-col justify-center text-center">
+<span class="text-3xl font-black text-primary mb-2">₹500Cr+</span>
+<span class="text-[10px] font-bold uppercase tracking-widest text-slate-400">Inventory Managed</span>
+</div>
+<div class="p-8 bg-primary border border-primary rounded aspect-square flex flex-col justify-center text-center">
+<span class="text-3xl font-black text-royal-gold mb-2">98%</span>
+<span class="text-[10px] font-bold uppercase tracking-widest text-white/60">Follow-up Accuracy</span>
+</div>
+<div class="p-8 bg-primary border border-primary rounded aspect-square flex flex-col justify-center text-center">
+<span class="text-3xl font-black text-white mb-2">15+</span>
+<span class="text-[10px] font-bold uppercase tracking-widest text-white/60">Tier 1 Cities</span>
+</div>
+<div class="p-8 bg-slate-50 border border-silver rounded aspect-square flex flex-col justify-center text-center">
+<span class="text-3xl font-black text-primary mb-2">24h</span>
+<span class="text-[10px] font-bold uppercase tracking-widest text-slate-400">Response Speed</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-slate-900 text-white px-6 relative overflow-hidden">
+<div class="max-w-7xl mx-auto relative z-10">
+<div class="mb-16">
+<h2 class="text-3xl font-bold tracking-tight mb-4">Solving Institutional Friction</h2>
+<p class="text-slate-400 max-w-xl">We eliminate the structural technical debt that stops high-volume conversion in Indian sales teams.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="p-8 border border-white/10 bg-white/5 hover:bg-white/10 transition-colors rounded">
+<span class="material-symbols-outlined text-royal-gold text-3xl mb-4">share_location</span>
+<h3 class="font-bold mb-3">Broken Field Operations</h3>
+<p class="text-sm text-slate-400">Real-time tracking of site visits and client meetings across vast urban territories.</p>
+</div>
+<div class="p-8 border border-white/10 bg-white/5 hover:bg-white/10 transition-colors rounded">
+<span class="material-symbols-outlined text-royal-gold text-3xl mb-4">account_tree</span>
+<h3 class="font-bold mb-3">Lead Leakage</h3>
+<p class="text-sm text-slate-400">Stop high-intent buyers from falling through the cracks of manual excel tracking.</p>
+</div>
+<div class="p-8 border border-white/10 bg-white/5 hover:bg-white/10 transition-colors rounded">
+<span class="material-symbols-outlined text-royal-gold text-3xl mb-4">payments</span>
+<h3 class="font-bold mb-3">Payout Complexity</h3>
+<p class="text-sm text-slate-400">Managing multi-tiered channel partner commissions and internal incentives.</p>
+</div>
+<div class="p-8 border border-white/10 bg-white/5 hover:bg-white/10 transition-colors rounded">
+<span class="material-symbols-outlined text-royal-gold text-3xl mb-4">shield_person</span>
+<h3 class="font-bold mb-3">Owner Privacy</h3>
+<p class="text-sm text-slate-400">Secure data architecture to protect premium client databases from unauthorized access.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 px-6" id="services">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-16">
+<h2 class="text-primary dark:text-white text-4xl font-bold tracking-tight mb-4 text-center">Enterprise Solutions</h2>
+<div class="h-1.5 w-16 bg-royal-gold mx-auto"></div>
+</div>
+<div class="grid lg:grid-cols-3 gap-8">
+<div class="service-card-glow group p-10 bg-white border border-silver transition-all duration-300 rounded-lg">
+<div class="mb-8 p-3 bg-slate-50 inline-block rounded">
+<span class="material-symbols-outlined text-primary group-hover:text-royal-gold transition-colors text-4xl">domain_verification</span>
+</div>
+<h3 class="text-xl font-bold mb-4 text-slate-900">Sales Infrastructure</h3>
+<p class="text-slate-600 mb-8 leading-relaxed">End-to-end technical backbone for managing thousands of concurrent site-visit bookings and inventory updates.</p>
+<a class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-primary group-hover:text-royal-gold transition-all" href="#">
+                    Detailed Scope <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<div class="service-card-glow group p-10 bg-white border border-silver transition-all duration-300 rounded-lg">
+<div class="mb-8 p-3 bg-slate-50 inline-block rounded">
+<span class="material-symbols-outlined text-primary group-hover:text-royal-gold transition-colors text-4xl">hub</span>
+</div>
+<h3 class="text-xl font-bold mb-4 text-slate-900">CRM Optimization</h3>
+<p class="text-slate-600 mb-8 leading-relaxed">Custom Salesforce or specialized Real Estate CRM implementation with localized logic for the Indian sales cycle.</p>
+<a class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-primary group-hover:text-royal-gold transition-all" href="#">
+                    Detailed Scope <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<div class="service-card-glow group p-10 bg-white border border-silver transition-all duration-300 rounded-lg">
+<div class="mb-8 p-3 bg-slate-50 inline-block rounded">
+<span class="material-symbols-outlined text-primary group-hover:text-royal-gold transition-colors text-4xl">developer_board</span>
+</div>
+<h3 class="text-xl font-bold mb-4 text-slate-900">Digital Architecture</h3>
+<p class="text-slate-600 mb-8 leading-relaxed">Omnichannel communications (WhatsApp API, SMS, Cloud Telephony) integrated directly into your sales cockpit.</p>
+<a class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-primary group-hover:text-royal-gold transition-all" href="#">
+                    Detailed Scope <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 bg-primary text-white px-6 relative overflow-hidden" id="approach">
+<div class="absolute inset-0 mandala-overlay opacity-5 -z-0"></div>
+<div class="max-w-7xl mx-auto relative z-10">
+<div class="mb-20 text-center">
+<h2 class="text-3xl font-bold tracking-tight mb-4">Deployment Protocol</h2>
+<p class="text-slate-400 max-w-xl mx-auto">Precision engineering for minimal operational disruption.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="relative group">
+<div class="text-6xl font-black text-white/5 mb-6 group-hover:text-royal-gold/10 transition-colors">01</div>
+<h3 class="text-lg font-bold mb-3 text-royal-gold">Audit</h3>
+<p class="text-sm text-slate-400 leading-relaxed">Deep-dive into your current data flow and CRM hygiene.</p>
+</div>
+<div class="relative group">
+<div class="text-6xl font-black text-white/5 mb-6 group-hover:text-royal-gold/10 transition-colors">02</div>
+<h3 class="text-lg font-bold mb-3">Architecture</h3>
+<p class="text-sm text-slate-400 leading-relaxed">Building a scalable blueprint for your inventory size.</p>
+</div>
+<div class="relative group">
+<div class="text-6xl font-black text-white/5 mb-6 group-hover:text-royal-gold/10 transition-colors">03</div>
+<h3 class="text-lg font-bold mb-3">Rollout</h3>
+<p class="text-sm text-slate-400 leading-relaxed">Phased deployment with hands-on training for sales desks.</p>
+</div>
+<div class="relative group">
+<div class="text-6xl font-black text-white/5 mb-6 group-hover:text-royal-gold/10 transition-colors">04</div>
+<h3 class="text-lg font-bold mb-3">Scale</h3>
+<p class="text-sm text-slate-400 leading-relaxed">Optimizing for ROI and expanding to your entire portfolio.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 px-6 border-b border-silver relative">
+<div class="max-w-4xl mx-auto text-center">
+<div class="inline-block p-4 rounded-full bg-royal-gold/10 mb-8">
+<span class="material-symbols-outlined text-royal-gold text-4xl">rocket_launch</span>
+</div>
+<h2 class="text-primary text-4xl md:text-5xl font-extrabold tracking-tight mb-8">Ready to systematize your institutional growth?</h2>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<button class="bg-primary text-white text-[12px] font-bold uppercase tracking-[0.25em] px-12 py-6 rounded hover:bg-slate-800 transition-all shadow-2xl">
+                Book Discovery Session
+            </button>
+</div>
+<p class="mt-8 text-xs text-slate-400 uppercase tracking-widest font-bold">No commitment. Confidential enterprise audit.</p>
+</div>
+</section>
+<footer class="bg-white py-24 px-6 border-t border-silver">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-16 mb-16">
+<div class="col-span-1 md:col-span-1">
+<span class="text-primary font-black text-2xl tracking-tighter uppercase block mb-8">Trade<span class="text-royal-gold">Vastu</span></span>
+<p class="text-sm text-slate-500 leading-relaxed mb-8">
+                    TradeVastu Technologies is Bharat's leading enterprise partner for real estate organizations seeking to modernize their sales architecture with high-ROI systems.
+                </p>
+<div class="text-[10px] text-slate-400 space-y-1 font-bold uppercase tracking-widest">
+<p>GSTIN: 27AATCT5421M1Z5 (Placeholder)</p>
+<p>© 2024 TradeVastu Technologies Private Limited</p>
+</div>
+</div>
+<div>
+<h4 class="text-[11px] font-black uppercase tracking-[0.3em] text-royal-gold mb-8">Headquarters</h4>
+<p class="text-sm text-slate-600 leading-relaxed">
+                    Level 8, Platina Tower<br/>
+                    BKC, Mumbai<br/>
+                    Maharashtra 400051
+                </p>
+</div>
+<div>
+<h4 class="text-[11px] font-black uppercase tracking-[0.3em] text-primary mb-8">Solutions</h4>
+<ul class="text-sm text-slate-600 space-y-4 font-medium">
+<li><a class="hover:text-royal-gold transition-colors" href="#">Sales Infrastructure</a></li>
+<li><a class="hover:text-royal-gold transition-colors" href="#">CRM Architecture</a></li>
+<li><a class="hover:text-royal-gold transition-colors" href="#">RERA Compliance Tech</a></li>
+<li><a class="hover:text-royal-gold transition-colors" href="#">Lead Intelligence</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-[11px] font-black uppercase tracking-[0.3em] text-primary mb-8">Contact</h4>
+<ul class="text-sm text-slate-600 space-y-4 font-medium">
+<li><a class="hover:text-royal-gold transition-colors" href="mailto:strategy@tradevastu.com">strategy@tradevastu.com</a></li>
+<li><a class="hover:text-royal-gold transition-colors" href="#">Legal &amp; Compliance</a></li>
+<li><a class="hover:text-royal-gold transition-colors" href="#">Terms of Service</a></li>
+</ul>
+</div>
+</div>
+<div class="pt-12 border-t border-silver flex flex-col md:flex-row justify-between items-center gap-6">
+<p class="text-[10px] font-bold uppercase tracking-[0.4em] text-slate-400">Deployed Nationally. Engineered in India.</p>
+<div class="flex gap-8">
+<span class="material-symbols-outlined text-slate-400 cursor-pointer hover:text-royal-gold transition-colors">language</span>
+<span class="material-symbols-outlined text-slate-400 cursor-pointer hover:text-royal-gold transition-colors">terminal</span>
+<span class="material-symbols-outlined text-slate-400 cursor-pointer hover:text-royal-gold transition-colors">verified_user</span>
+</div>
+</div>
+</div>
+</footer>
+
+</body></html>
