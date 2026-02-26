@@ -8,12 +8,12 @@ export default function Hero() {
   const [modalOpen, setModalOpen] = useState(false);
 
   return (
-    <section className="bg-gray-50 dark:bg-slate-950 py-12 md:py-20 lg:py-28 px-4 sm:px-6 lg:px-8 relative overflow-hidden transition-colors duration-300">
+    <section className="bg-gray-50 dark:bg-slate-950 py-16 md:py-20 lg:py-28 min-h-[78vh] md:min-h-0 flex items-center px-4 sm:px-6 lg:px-8 relative overflow-hidden transition-colors duration-300">
       {/* Subtle grid pattern background */}
       <div className="absolute inset-0 opacity-[0.02] dark:opacity-[0.05] bg-[linear-gradient(to_right,#808080_1px,transparent_1px),linear-gradient(to_bottom,#808080_1px,transparent_1px)] bg-[size:24px_24px]"></div>
 
       <div className="max-w-7xl mx-auto relative z-10 text-center">
-        <div className="flex flex-col items-center space-y-8 md:space-y-12 animate-reveal">
+        <div className="flex flex-col items-center space-y-10 md:space-y-12 animate-reveal">
           {/* Content */}
           <div className="max-w-5xl space-y-6 md:space-y-8">
             <p className="text-[10px] md:text-sm text-gold-gradient uppercase tracking-[0.3em] md:tracking-[0.4em] font-bold opacity-90 mx-auto">

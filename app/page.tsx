@@ -13,8 +13,8 @@ export default function Home() {
     <main className="min-h-screen">
       <Header />
       <Hero />
-      <ClientLogos />
       <LocalizedExpertise />
+      <ClientLogos />
       <SolvingFriction />
       <EnterpriseSolutions />
       <RealEstateComplexity />

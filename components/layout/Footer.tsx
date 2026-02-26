@@ -18,23 +18,22 @@ export default function Footer() {
 
           {/* Column 1: Branding & Social */}
           <div className="space-y-8">
-            <Link href="/" className="flex items-center gap-4 group shrink-0">
-              <div className="relative w-14 h-14 flex items-center justify-center">
-                {/* Light surface in dark mode to match header */}
-                <div className="absolute inset-0 rounded-xl dark:bg-white/95 dark:shadow-lg transition-all duration-300" />
+            <Link href="/" className="flex items-center gap-2 md:gap-3 shrink-0">
+              <div className="relative w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 flex items-center justify-center rounded-lg">
+                <div className="absolute inset-1 sm:inset-1 md:inset-1.5 rounded-xl dark:bg-white/90 dark:shadow-lg transition-all duration-300" />
                 <Image
                   src="/logo_tradevastu.png"
                   alt="TRADEVASTU ENTERPRISES Logo"
                   fill
-                  className="object-contain relative z-10 p-2"
+                  className="object-contain relative z-10 p-1 sm:p-1.5 md:p-2"
                   priority
                 />
               </div>
               <div className="flex flex-col leading-none">
-                <span className="text-[22px] font-black uppercase tracking-tight text-black dark:text-white">
+                <span className="text-[16px] md:text-[22px] font-black uppercase tracking-tight text-black dark:text-white">
                   TRADEVASTU
                 </span>
-                <span className="text-[12px] font-bold uppercase tracking-[0.5em] mt-1 text-black dark:text-white opacity-90">
+                <span className="text-[9px] md:text-[12px] font-bold uppercase tracking-[0.4em] mt-0.5 md:mt-1 text-black dark:text-white opacity-90">
                   ENTERPRISES
                 </span>
               </div>
